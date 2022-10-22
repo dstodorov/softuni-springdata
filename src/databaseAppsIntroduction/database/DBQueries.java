@@ -1,0 +1,25 @@
+package databaseAppsIntroduction.database;
+
+public interface DBQueries {
+
+    // *********************>  EXERCISE - GetVillainsNames <********************* //
+    String GET_VILLAINS_NAMES = "SELECT v.name as villain_name, COUNT(mv.minion_id) as minions_count FROM\n" +
+            "villains v JOIN minions_villains mv on v.id = mv.villain_id\n" +
+            "JOIN minions m ON mv.minion_id = m.id\n" +
+            "GROUP BY v.id\n" +
+            "HAVING minions_count > 15\n" +
+            "ORDER BY minions_count DESC;";
+
+    // *********************>  EXERCISE - GetMinionsNames <********************* //
+    String GET_MINIONS_NAMES = "SELECT v.name as villain_name, m.name as minions_name, m.age as minions_age FROM villains v JOIN minions_villains mv on v.id = mv.villain_id JOIN minions m ON mv.minion_id = m.id WHERE v.id = ?";
+
+    // *********************>  EXERCISE - AddMinion <********************* //
+    String GET_TOWN_BY_NAME = "SELECT * FROM towns WHERE name = ?";
+    String INSERT_TOWN = "INSERT INTO towns (name) VALUES(?)";
+    String GET_VILLAIN_BY_NAME = "SELECT * FROM villains WHERE name = ?";
+    String INSERT_VILLAIN = "INSERT INTO villains (name, evilness_factor) VALUES(?,?)";
+    String INSERT_MINION = "INSERT INTO minions (name, age, town_id) VALUES (?,?,?)";
+    String INSERT_MINION_TO_VILLAIN_COLLECTION = "INSERT INTO minions_villains(minion_id, villain_id) VALUES (?,?) ";
+    String GET_LAST_INSERTED_MINION_ID = "SELECT MAX(id) as id from minions";
+
+}
