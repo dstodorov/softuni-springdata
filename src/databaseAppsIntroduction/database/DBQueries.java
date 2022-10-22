@@ -25,4 +25,15 @@ public interface DBQueries {
     // *********************>  EXERCISE - ChangeTownNameCasing <********************* //
     String UPDATE_TOWN_CASING_BY_COUNTRY_NAME = "UPDATE towns SET name = UPPER(name) WHERE country = ?";
     String GET_TOWNS_BY_COUNTRY_NAME = "SELECT name FROM towns WHERE country = ?";
+
+    // *********************>  EXERCISE - Remove Villain <********************* //
+
+    String GET_VILLAIN_BY_ID = "SELECT * FROM villains WHERE id = ?";
+    String GET_VILLAIN_INFO_FOR_DELETION = "SELECT v.name as villain_name, COUNT(mv.minion_id) as minions_count FROM minions m JOIN minions_villains mv on m.id = mv.minion_id\n" +
+                                "JOIN villains v on mv.villain_id = v.id\n" +
+                                "WHERE v.id =?\n" +
+                                "GROUP BY mv.villain_id;";
+
+    String RELEASE_VILLAIN_MINIONS = "DELETE FROM minions_villains WHERE villain_id = ?";
+    String DELETE_VILLAIN = "DELETE FROM villains WHERE id = ?";
 }
