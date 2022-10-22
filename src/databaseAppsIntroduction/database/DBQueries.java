@@ -36,4 +36,8 @@ public interface DBQueries {
 
     String RELEASE_VILLAIN_MINIONS = "DELETE FROM minions_villains WHERE villain_id = ?";
     String DELETE_VILLAIN = "DELETE FROM villains WHERE id = ?";
+
+    // *********************>  EXERCISE - PrintAllMinionsNames <********************* //
+
+    String GET_ALL_MINIONS_NAMES = "SELECT name FROM minions";
 }
