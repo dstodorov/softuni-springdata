@@ -10,4 +10,7 @@ public interface Messages {
     String VILLAIN_NAME = "Villain: %s%n";
     String MINION_INFO = "%d. %s %d%n";
     String VILLAIN_INFO = "%s %d%n";
+    String NO_TOWNS_UPDATED_TEXT = "No town names were affected.";
+    String UPDATED_TOWNS_MESSAGE = "%d town names were affected.%n";
+    String SEPARATED_TOWNS_TEXT = "[%s]%n";
 }

@@ -22,4 +22,7 @@ public interface DBQueries {
     String INSERT_MINION_TO_VILLAIN_COLLECTION = "INSERT INTO minions_villains(minion_id, villain_id) VALUES (?,?) ";
     String GET_LAST_INSERTED_MINION_ID = "SELECT MAX(id) as id from minions";
 
+    // *********************>  EXERCISE - ChangeTownNameCasing <********************* //
+    String UPDATE_TOWN_CASING_BY_COUNTRY_NAME = "UPDATE towns SET name = UPPER(name) WHERE country = ?";
+    String GET_TOWNS_BY_COUNTRY_NAME = "SELECT name FROM towns WHERE country = ?";
 }
