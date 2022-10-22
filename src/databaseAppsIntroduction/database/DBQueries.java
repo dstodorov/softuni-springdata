@@ -40,4 +40,8 @@ public interface DBQueries {
     // *********************>  EXERCISE - PrintAllMinionsNames <********************* //
 
     String GET_ALL_MINIONS_NAMES = "SELECT name FROM minions";
+
+    // *********************>  EXERCISE - Increase Minions Age <********************* //
+    String UPDATE_MINIONS_NAMES_AND_AGE = "UPDATE minions SET age = age + 1, name = LOWER(name) WHERE id in (%s)";
+    String GET_ALL_MINIONS_INFO = "SELECT * FROM minions";
 }
