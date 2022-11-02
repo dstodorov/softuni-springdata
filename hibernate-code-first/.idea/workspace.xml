@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63f7a9d-c73b-4fa0-a964-f503f28d9ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/java/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/java/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/java/entities/Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/java/entities/StoreLocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesDatabase/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -67,10 +67,17 @@
       <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\hibernate-code-first\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SalesDatabase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="UniversityDatabase" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -97,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667233719063</updated>
-      <workItem from="1667233720740" duration="11794000" />
+      <workItem from="1667233720740" duration="19637000" />
     </task>
     <servers />
   </component>
@@ -119,5 +127,15 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar!/javax/persistence/GenerationType.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
