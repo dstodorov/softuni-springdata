@@ -5,18 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63f7a9d-c73b-4fa0-a964-f503f28d9ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/HospitalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Diagnose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Medication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/VisitationHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GringottsDatabase/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GringottsDatabase/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GringottsDatabase/target/classes/WizardDeposit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/HospitalManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/entities/Diagnose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/entities/Medication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/entities/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalDatabase/target/classes/entities/VisitationHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/entities/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/entities/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/entities/Sale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SalesDatabase/target/classes/entities/StoreLocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/entities/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/entities/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/entities/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySystem/target/classes/entities/Teacher.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2GuLr1n7R971AxH9le8k0YxrJ8d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -118,7 +136,7 @@
       <updated>1667233719063</updated>
       <workItem from="1667233720740" duration="23914000" />
       <workItem from="1667659648385" duration="12096000" />
-      <workItem from="1667722118380" duration="3753000" />
+      <workItem from="1667722118380" duration="5575000" />
     </task>
     <servers />
   </component>
