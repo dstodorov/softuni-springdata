@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a63f7a9d-c73b-4fa0-a964-f503f28d9ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/java/entities/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UniversitySystem/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/HospitalManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Diagnose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Medication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/java/entities/VisitationHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalDatabase/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -26,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,31 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/Dev/Softuni/Resources/04.JavaDB/02.SpringData/exercises/softuni-springdata/hibernate-code-first/SalesDatabase/src/main/resources",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Dev/Softuni/Resources/04.JavaDB/02.SpringData/exercises/softuni-springdata/hibernate-code-first/HospitalDatabase/src/main/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\hibernate-code-first\HospitalDatabase\src\main\resources" />
       <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\hibernate-code-first\SalesDatabase\src\main\resources" />
       <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\hibernate-code-first\GringottsDatabase\src\main\resources" />
       <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\hibernate-code-first\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SalesDatabase" />
@@ -82,6 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HospitalDatabase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="GringottsDatabase" />
@@ -91,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -105,7 +116,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667233719063</updated>
-      <workItem from="1667233720740" duration="19637000" />
+      <workItem from="1667233720740" duration="23914000" />
+      <workItem from="1667659648385" duration="12096000" />
+      <workItem from="1667722118380" duration="3753000" />
     </task>
     <servers />
   </component>
