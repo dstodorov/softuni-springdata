@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ea9013-25f6-491a-b165-e8a5ce3d30f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/AgeRestriction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/EditionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/books.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/files/categories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,11 +44,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Dev/Softuni/Resources/04.JavaDB/02.SpringData/exercises/softuni-springdata/spring-advancedquering-exercise/src/main/java/com/example/springadvancedqueringexercise",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\spring-advancedquering-exercise\src\main\java\com\example\springadvancedqueringexercise" />
+      <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\spring-advancedquering-exercise\src\main\resources" />
+      <recent name="D:\Dev\Softuni\Resources\04.JavaDB\02.SpringData\exercises\softuni-springdata\spring-advancedquering-exercise" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringAdvancedqueringExerciseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-advancedquering-exercise" />
@@ -51,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908173689</updated>
-      <workItem from="1667908174838" duration="1000" />
+      <workItem from="1667908174838" duration="394000" />
     </task>
     <servers />
   </component>
