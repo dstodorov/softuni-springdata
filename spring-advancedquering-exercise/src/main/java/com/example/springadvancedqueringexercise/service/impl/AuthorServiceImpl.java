@@ -61,4 +61,9 @@ public class AuthorServiceImpl implements AuthorService {
                         author.getBooks().size()))
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public List<Author> findAllByFirstNameEndingWith(String str) {
+        return this.authorRepository.findAllByFirstNameEndingWith(str);
+    }
 }

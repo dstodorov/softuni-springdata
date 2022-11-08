@@ -95,6 +95,21 @@ public class BookServiceImpl implements BookService {
         return this.bookRepository.findAllByReleaseDateBefore(date);
     }
 
+    @Override
+    public List<Book> findAllByTitleContainsIgnoreCase(String str) {
+        return this.bookRepository.findAllByTitleContainsIgnoreCase(str);
+    }
+
+    @Override
+    public List<Book> findAllByAuthorLastNameStartWith(String str) {
+        return this.bookRepository.findAllByAuthorLastNameStartWith(str);
+    }
+
+    @Override
+    public int countAllByTitleGreaterThan(int symbols) {
+        return this.bookRepository.countAllByTitleGreaterThan(symbols);
+    }
+
     private Book createBookFromInfo(String[] bookInfo) {
         EditionType editionType = EditionType.values()[Integer.parseInt(bookInfo[0])];
         LocalDate releaseDate = LocalDate

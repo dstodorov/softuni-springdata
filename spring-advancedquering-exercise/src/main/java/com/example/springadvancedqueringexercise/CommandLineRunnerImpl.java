@@ -1,7 +1,6 @@
 package com.example.springadvancedqueringexercise;
 
 import com.example.springadvancedqueringexercise.model.entity.AgeRestriction;
-import com.example.springadvancedqueringexercise.model.entity.Book;
 import com.example.springadvancedqueringexercise.model.entity.EditionType;
 import com.example.springadvancedqueringexercise.service.AuthorService;
 import com.example.springadvancedqueringexercise.service.BookService;
@@ -10,10 +9,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 import java.util.Scanner;
 
 @Component
@@ -35,7 +32,13 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
         //p02_GoldenBooks();
         //p03_BooksByPrice();
         //p04_NotReleasedBooks();
-        p04_BookReleasedBeforeDate();
+        //p05_BookReleasedBeforeDate();
+        //p06_AuthorsSearch();
+        //p07_BooksSearch();
+        //p08_BookTitleSearch();
+        //p09_CountBooks();
+        p10_TotalBooksCopies();
+
     }
 
 
@@ -62,12 +65,42 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
                 .forEach(book -> System.out.println(book.getTitle()));
     }
 
-    void p04_BookReleasedBeforeDate() {
+    void p05_BookReleasedBeforeDate() {
         String date = new Scanner(System.in).nextLine();
         LocalDate dateBefore = LocalDate.parse(date, DateTimeFormatter.ofPattern("d-MM-yyyy"));
 
         this.bookService.findAllByReleaseDateBefore(dateBefore)
                 .forEach(book -> System.out.printf("%s %s %.2f%n", book.getTitle(), book.getEditionType().name(), book.getPrice()));
+    }
+
+    void p06_AuthorsSearch() {
+        String str = new Scanner(System.in).nextLine();
+
+        this.authorService.findAllByFirstNameEndingWith(str)
+                .forEach(author -> System.out.println(author.getFirstName() + " " + author.getLastName()));
+    }
+
+    void p07_BooksSearch() {
+        String str = new Scanner(System.in).nextLine();
+
+        this.bookService.findAllByTitleContainsIgnoreCase(str)
+                .forEach(book -> System.out.println(book.getTitle()));
+    }
+
+    void p08_BookTitleSearch() {
+        String str = new Scanner(System.in).nextLine();
+
+        this.bookService.findAllByAuthorLastNameStartWith(str)
+                .forEach(book -> System.out.println(book.getTitle()));
+    }
+
+    void p09_CountBooks() {
+        int symbols = Integer.parseInt(new Scanner(System.in).nextLine());
+        System.out.println(this.bookService.countAllByTitleGreaterThan(symbols));
+    }
+
+    void p10_TotalBooksCopies() {
+
     }
 
     private void seedData() throws IOException {

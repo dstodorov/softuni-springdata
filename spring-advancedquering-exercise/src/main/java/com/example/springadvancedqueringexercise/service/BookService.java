@@ -24,4 +24,10 @@ public interface BookService {
 
     List<Book> findAllByReleaseDateBefore(LocalDate date);
 
+    List<Book> findAllByTitleContainsIgnoreCase(String str);
+
+    List<Book> findAllByAuthorLastNameStartWith(String str);
+
+    int countAllByTitleGreaterThan(int symbols);
+
 }

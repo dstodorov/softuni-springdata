@@ -7,12 +7,18 @@
     <list default="true" id="08ea9013-25f6-491a-b165-e8a5ce3d30f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908173689</updated>
-      <workItem from="1667908174838" duration="3755000" />
+      <workItem from="1667908174838" duration="5600000" />
     </task>
     <servers />
   </component>
