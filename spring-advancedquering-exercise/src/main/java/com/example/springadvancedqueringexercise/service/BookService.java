@@ -1,5 +1,6 @@
 package com.example.springadvancedqueringexercise.service;
 
+import com.example.springadvancedqueringexercise.model.entity.AgeRestriction;
 import com.example.springadvancedqueringexercise.model.entity.Book;
 
 import java.io.IOException;
@@ -13,5 +14,7 @@ public interface BookService {
     List<String> findAllAuthorsWithBooksWithReleaseDateBeforeYear(int year);
 
     List<String> findAllBooksByAuthorFirstAndLastNameOrderByReleaseDate(String firstName, String lastName);
+
+    List<Book> findAllByAgeRestriction(AgeRestriction ageRestriction);
 
 }

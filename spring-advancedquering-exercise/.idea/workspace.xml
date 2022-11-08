@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ea9013-25f6-491a-b165-e8a5ce3d30f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/AgeRestriction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/EditionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/authors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/books.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/files/categories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +35,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -76,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908173689</updated>
-      <workItem from="1667908174838" duration="394000" />
+      <workItem from="1667908174838" duration="1096000" />
     </task>
     <servers />
   </component>
