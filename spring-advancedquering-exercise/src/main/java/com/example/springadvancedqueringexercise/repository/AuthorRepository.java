@@ -1,6 +1,7 @@
 package com.example.springadvancedqueringexercise.repository;
 
 import com.example.springadvancedqueringexercise.model.entity.Author;
+import com.example.springadvancedqueringexercise.model.entity.dto.BookInformation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
@@ -14,4 +15,6 @@ public interface AuthorRepository extends JpaRepository<Author, Long> {
     List<Author> findAllByBooksSizeDESC();
 
     List<Author> findAllByFirstNameEndingWith(String str);
+
+    List<Author> findAll();
 }

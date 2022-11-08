@@ -1,6 +1,7 @@
 package com.example.springadvancedqueringexercise.service.impl;
 
 import com.example.springadvancedqueringexercise.model.entity.Author;
+import com.example.springadvancedqueringexercise.model.entity.Book;
 import com.example.springadvancedqueringexercise.repository.AuthorRepository;
 import com.example.springadvancedqueringexercise.service.AuthorService;
 import org.springframework.stereotype.Service;
@@ -8,7 +9,10 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Comparator;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
@@ -65,5 +69,25 @@ public class AuthorServiceImpl implements AuthorService {
     @Override
     public List<Author> findAllByFirstNameEndingWith(String str) {
         return this.authorRepository.findAllByFirstNameEndingWith(str);
+    }
+
+    @Override
+    public Map<String, Long> authorsWithTotalBookCopies() {
+        List<Author> authors = this.authorRepository.findAll();
+
+        Map<String, Long> authorsWithBookCopies = new LinkedHashMap<>();
+
+        authors.forEach(author -> {
+            long totalCopies = author.getBooks().stream().mapToLong(Book::getCopies).sum();
+            authorsWithBookCopies.put(author.getFirstName() + " " + author.getLastName(), totalCopies);
+        });
+        LinkedHashMap<String, Long> sorted = new LinkedHashMap<>();
+
+        authorsWithBookCopies.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEachOrdered(x -> sorted.put(x.getKey(), x.getValue()));
+
+        return sorted;
     }
 }

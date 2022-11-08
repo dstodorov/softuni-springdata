@@ -2,6 +2,7 @@ package com.example.springadvancedqueringexercise;
 
 import com.example.springadvancedqueringexercise.model.entity.AgeRestriction;
 import com.example.springadvancedqueringexercise.model.entity.EditionType;
+import com.example.springadvancedqueringexercise.model.entity.dto.BookInformation;
 import com.example.springadvancedqueringexercise.service.AuthorService;
 import com.example.springadvancedqueringexercise.service.BookService;
 import com.example.springadvancedqueringexercise.service.CategoryService;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Map;
 import java.util.Scanner;
 
 @Component
@@ -37,7 +39,8 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
         //p07_BooksSearch();
         //p08_BookTitleSearch();
         //p09_CountBooks();
-        p10_TotalBooksCopies();
+        //p10_TotalBooksCopies();
+        //p11_ReducedBook();
 
     }
 
@@ -100,7 +103,16 @@ public class CommandLineRunnerImpl implements CommandLineRunner {
     }
 
     void p10_TotalBooksCopies() {
+        Map<String, Long> bookInfo = this.authorService.authorsWithTotalBookCopies();
 
+        bookInfo.forEach((author, copies) -> System.out.printf("%s - %d%n", author, copies));
+    }
+
+    void p11_ReducedBook() {
+        String title = new Scanner(System.in).nextLine();
+
+        BookInformation bookInformation = bookService.findFirstByTitle(title);
+        System.out.println(bookInformation);
     }
 
     private void seedData() throws IOException {

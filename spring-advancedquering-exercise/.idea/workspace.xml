@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ea9013-25f6-491a-b165-e8a5ce3d30f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/dto/BookInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" afterDir="false" />
@@ -15,9 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" afterDir="false" />
     </list>
@@ -25,6 +24,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -76,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908173689</updated>
-      <workItem from="1667908174838" duration="5600000" />
+      <workItem from="1667908174838" duration="9439000" />
     </task>
     <servers />
   </component>

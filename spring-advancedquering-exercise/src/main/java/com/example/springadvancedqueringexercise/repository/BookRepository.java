@@ -3,6 +3,7 @@ package com.example.springadvancedqueringexercise.repository;
 import com.example.springadvancedqueringexercise.model.entity.AgeRestriction;
 import com.example.springadvancedqueringexercise.model.entity.Book;
 import com.example.springadvancedqueringexercise.model.entity.EditionType;
+import com.example.springadvancedqueringexercise.model.entity.dto.BookInformation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -10,6 +11,7 @@ import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 @Repository
 public interface BookRepository extends JpaRepository<Book, Long> {
@@ -37,4 +39,7 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 
     @Query("SELECT COUNT(b) FROM Book b WHERE LENGTH(b.title) > :symbols")
     int countAllByTitleGreaterThan(int symbols);
+
+    @Query("SELECT new com.example.springadvancedqueringexercise.model.entity.dto.BookInformation(b.title, b.editionType, b.ageRestriction, b.price) FROM Book b WHERE b.title = :title")
+    BookInformation findFirstByTitle(String title);
 }

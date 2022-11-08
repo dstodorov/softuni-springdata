@@ -4,6 +4,7 @@ import com.example.springadvancedqueringexercise.model.entity.Author;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 public interface AuthorService {
     void seedAuthors() throws IOException;
@@ -13,4 +14,6 @@ public interface AuthorService {
     List<String> getAllAuthorsOrderByCountOfTheirBooks();
 
     List<Author> findAllByFirstNameEndingWith(String str);
+
+    Map<String, Long> authorsWithTotalBookCopies();
 }

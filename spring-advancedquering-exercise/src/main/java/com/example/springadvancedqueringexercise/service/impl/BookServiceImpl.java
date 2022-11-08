@@ -1,6 +1,7 @@
 package com.example.springadvancedqueringexercise.service.impl;
 
 import com.example.springadvancedqueringexercise.model.entity.*;
+import com.example.springadvancedqueringexercise.model.entity.dto.BookInformation;
 import com.example.springadvancedqueringexercise.repository.BookRepository;
 import com.example.springadvancedqueringexercise.service.AuthorService;
 import com.example.springadvancedqueringexercise.service.BookService;
@@ -15,6 +16,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -109,6 +111,12 @@ public class BookServiceImpl implements BookService {
     public int countAllByTitleGreaterThan(int symbols) {
         return this.bookRepository.countAllByTitleGreaterThan(symbols);
     }
+
+    @Override
+    public BookInformation findFirstByTitle(String title) {
+        return this.bookRepository.findFirstByTitle(title);
+    }
+
 
     private Book createBookFromInfo(String[] bookInfo) {
         EditionType editionType = EditionType.values()[Integer.parseInt(bookInfo[0])];

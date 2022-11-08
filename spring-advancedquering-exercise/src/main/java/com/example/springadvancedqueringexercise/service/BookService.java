@@ -3,10 +3,12 @@ package com.example.springadvancedqueringexercise.service;
 import com.example.springadvancedqueringexercise.model.entity.AgeRestriction;
 import com.example.springadvancedqueringexercise.model.entity.Book;
 import com.example.springadvancedqueringexercise.model.entity.EditionType;
+import com.example.springadvancedqueringexercise.model.entity.dto.BookInformation;
 
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 public interface BookService {
     void seedBooks() throws IOException;
@@ -29,5 +31,7 @@ public interface BookService {
     List<Book> findAllByAuthorLastNameStartWith(String str);
 
     int countAllByTitleGreaterThan(int symbols);
+
+    BookInformation findFirstByTitle(String title);
 
 }
