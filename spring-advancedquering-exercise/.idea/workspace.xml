@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08ea9013-25f6-491a-b165-e8a5ce3d30f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/model/entity/dto/BookInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/AuthorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/AuthorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/AgeRestriction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/EditionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/model/entity/dto/BookInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/repository/CategoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springadvancedqueringexercise/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/authors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/books.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/files/categories.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +58,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -82,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667908173689</updated>
-      <workItem from="1667908174838" duration="9439000" />
+      <workItem from="1667908174838" duration="10860000" />
     </task>
     <servers />
   </component>
