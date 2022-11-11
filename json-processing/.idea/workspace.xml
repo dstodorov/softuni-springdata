@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5634dcd1-d452-42f8-aefc-0403931febbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../autoMapping-exercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../autoMapping-exercise/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/AutoMappingExerciseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/ConsoleRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/executor/ExecutorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/executor/ExecutorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/GameRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/GameService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/GameServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/dtos/GameAddDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/dtos/GameDetailsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/games/dtos/GamesDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/orders/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/dtos/UserLoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/users/dtos/UserRegisterDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/AccessDeniedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/DataValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/GameNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/GameValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/NoLoggedUserFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/exceptions/UserValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/validators/GameDataValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/validators/UserDataValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../autoMapping-exercise/target/classes/com/dst/automappingexercise/util/validators/ValidationMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise-homework.zip" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HP5pjSUF4nJW7piwZ8tLuiZ5ff" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JsonProcessingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="json-processing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dst.jsonprocessing.JsonProcessingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5634dcd1-d452-42f8-aefc-0403931febbd" name="Changes" comment="" />
+      <created>1668174062591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668174062591</updated>
+      <workItem from="1668174063908" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

@@ -5,38 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99a5fd3-876c-4e0b-9d2f-5bc3ed9fd032" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/ConsoleRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/executor/ExecutorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/executor/ExecutorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GameAddDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GameDetailsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GamesDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/orders/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/dtos/UserLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/dtos/UserRegisterDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/AccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/DataValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/GameNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/GameValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/NoLoggedUserFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/UserValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/GameDataValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/UserDataValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/ValidationMessages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/AutoMappingExerciseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/AutoMappingExerciseApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/AutoMappingExerciseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/ConsoleRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/executor/ExecutorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/executor/ExecutorServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/GameRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/GameService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/GameServiceImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/GameServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/dtos/GameAddDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/dtos/GameDetailsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/games/dtos/GamesDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/orders/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/dtos/UserLoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/users/dtos/UserRegisterDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/AccessDeniedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/DataValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/GameNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/GameValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/NoLoggedUserFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/exceptions/UserValidationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/validators/GameDataValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/validators/UserDataValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dst/automappingexercise/util/validators/ValidationMessages.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <updated>1667984410322</updated>
       <workItem from="1667984411555" duration="13704000" />
       <workItem from="1668067761798" duration="31373000" />
-      <workItem from="1668151623411" duration="8305000" />
+      <workItem from="1668151623411" duration="9234000" />
     </task>
     <servers />
   </component>
