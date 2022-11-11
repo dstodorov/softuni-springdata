@@ -5,55 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f99a5fd3-876c-4e0b-9d2f-5bc3ed9fd032" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-advancedquering-exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/CommandLineRunnerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/SpringAdvancedqueringExerciseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/AgeRestriction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/EditionType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/model/entity/dto/BookInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/repository/AuthorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/repository/BookRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/repository/CategoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/AuthorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/CategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/impl/AuthorServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/impl/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/com/example/springadvancedqueringexercise/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/files/authors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/files/books.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-advancedquering-exercise/target/classes/files/categories.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/ConsoleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/executor/ExecutorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/executor/ExecutorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/GameServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GameAddDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GameDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/games/dtos/GamesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/orders/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/dtos/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/users/dtos/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/AccessDeniedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/DataValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/GameNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/GameValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/NoLoggedUserFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/exceptions/UserValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/GameDataValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/UserDataValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/util/validators/ValidationMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/AutoMappingExerciseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dst/automappingexercise/AutoMappingExerciseApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.7.5/spring-data-jpa-2.7.5-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HItQgcBReWKx5m9C5c3aB7zBDV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;87a5df93f45565b67c7663f9e908dd94&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dst.automappingexercise.games" />
+      <recent name="com.dst.automappingexercise.exceptions" />
+      <recent name="com.dst.automappingexercise" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dst.automappingexercise" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="AutoMappingExerciseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="autoMapping-exercise" />
@@ -71,7 +110,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667984410322</updated>
-      <workItem from="1667984411555" duration="148000" />
+      <workItem from="1667984411555" duration="13704000" />
+      <workItem from="1668067761798" duration="31373000" />
+      <workItem from="1668151623411" duration="8305000" />
     </task>
     <servers />
   </component>
