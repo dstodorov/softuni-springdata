@@ -35,11 +35,9 @@ public class ConsoleRunner implements CommandLineRunner {
             if (result.equals("END")) {
                 break;
             }
+
             System.out.println(result);
             command = scanner.nextLine();
         }
-
     }
-
-
 }
